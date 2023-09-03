@@ -1,0 +1,17 @@
+{
+  "name": "newman-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:cli": "node newman.cli.js",
+    "test:html": "node newman.html.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.3.2",
+    "newman-reporter-htmlextra": "^1.22.11"
+  }
+}
