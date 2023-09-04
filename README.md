@@ -61,8 +61,6 @@ you can access report html in newman directory
   npm run allure-report
 ```
 
-### To checking report allure by pipeline, visit this url
+### To view report allure by pipeline, visit this url
 
-```bash
-  npm run allure-report
-```
+https://maqriki.github.io/API-reqress/
