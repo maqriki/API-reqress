@@ -1,0 +1,11 @@
+const json = pm.response.json();
+
+pm.test('Status code should be 200', function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test('Object response body should have property', function(){
+    pm.expect(json).to.be.an("object");
+    pm.expect(json.data).to.be.an("object");
+    pm.expect(json.support).to.be.a("object");
+})
