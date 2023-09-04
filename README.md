@@ -49,3 +49,20 @@ you can access report html in newman directory
 ```bash
   npm run test:cli
 ```
+### To run tests with allure report
+
+```bash
+  npm run test:allure
+```
+
+### To generate report allure tests
+
+```bash
+  npm run allure-report
+```
+
+### To checking report allure by pipeline, visit this url
+
+```bash
+  npm run allure-report
+```

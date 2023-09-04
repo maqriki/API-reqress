@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test:cli": "node newman.cli.js",
-    "test:html": "node newman.html.js"
+    "test:html": "node newman.html.js",
+    "test:allure": "node newman.allure.js",
+    "allure-report": "allure generate --clean ./allure-results && allure open"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,9 @@
   "dependencies": {
     "newman": "^5.3.2",
     "newman-reporter-htmlextra": "^1.22.11"
+  },
+  "devDependencies": {
+    "newman-reporter-allure": "^2.6.0",
+    "allure-commandline": "^2.13.8"
   }
 }

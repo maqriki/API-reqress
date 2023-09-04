@@ -76,11 +76,7 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"const getId = pm.collectionVariables.get('userId');\r",
-							"\r",
-							"if(getId != \"2\") {\r",
-							"    pm.globals.set(\"id\", 2);\r",
-							"}"
+							""
 						],
 						"type": "text/javascript"
 					}
