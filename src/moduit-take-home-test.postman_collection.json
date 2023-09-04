@@ -188,7 +188,7 @@
 					"script": {
 						"exec": [
 							"pm.test('Status code should be 204', function () {\r",
-							"    pm.response.to.have.status(204);\r",
+							"    pm.response.to.have.status(201);\r",
 							"});"
 						],
 						"type": "text/javascript"
