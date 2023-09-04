@@ -1,0 +1,17 @@
+const json = pm.response.json();
+
+pm.test('Status code should be 201', function () {
+    pm.response.to.have.status(201);
+});
+
+pm.test('Object response body should have property', function(){
+    pm.expect(json).to.be.an("object");
+    pm.expect(json.name).to.be.a("string");
+    pm.expect(json.id).to.be.a("string");
+    pm.expect(json.job).to.be.a("string");
+    pm.expect(json.createdAt).to.be.a("string");
+});
+
+pm.test('response body should have value', function(){
+    pm.expect(json.name).to.equal('Maq Riki Sandi');
+});

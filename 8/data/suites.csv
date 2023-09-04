@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Sep 04 06:42:05 GMT 2023","Mon Sep 04 06:42:05 GMT 2023","443","","","","","","create user",""
+"passed","Mon Sep 04 06:42:05 GMT 2023","Mon Sep 04 06:42:05 GMT 2023","43","","","","","","get user",""
+"passed","Mon Sep 04 06:42:05 GMT 2023","Mon Sep 04 06:42:06 GMT 2023","299","","","","","","update user",""
+"failed","Mon Sep 04 06:42:06 GMT 2023","Mon Sep 04 06:42:06 GMT 2023","294","","","","","","delete user",""
